@@ -1,0 +1,40 @@
+= Dioxide RPC Client for Titanium Appcelerator
+
+This is a client-side library designed for use in mobile applications built with Titanium Appcelerator.
+It interfaces with RPC services that follow the Dioxide RPC protocol (Documentation and Ruby on Rails server-side
+implementation coming soon).
+
+== Installation
+
+Place dioxide.js and dioxide_config.js a folder named 'lib' in your Titanium project's resource folder.
+Example:
+
+    /MyCoolTitaniumProject
+      /Resources
+        /lib
+          dioxide.js
+          dioxide_config.js
+
+== Configuration
+
+Update dioxide_config.js with the API endpoint that you will be connecting to.  For example:
+
+    dioxide.config = {
+      serviceURL: "http://my.cool.host/api",
+      debug: false
+    };
+
+Other possible configuration options:
+
+[debug] boolean value that indicates whether or not additional debug info concerning requests and responses should be
+printed to the Titanium console.
+
+Note: It's perfectly acceptable to reference an application-specific variable or function call to evaluate parameters such as the serviceURL,
+in case your application has a more extensive configuration environment already in place.
+
+----
+
+== License
+
+Copyright 2011 Developer Town
+Released under the Apache 2.0 License
