@@ -2,8 +2,8 @@
 
 This is a client-side library designed for use in mobile applications built with Titanium Appcelerator.
 It interfaces with RPC services that follow the Dioxide RPC protocol, such as those implemented using
-the dioxide-rails framework for Ruby On Rails: https://github.com/developertown/dioxide-rails .
-(Protocol documentation coming soon).
+the dioxide-rails framework for Ruby On Rails: https://github.com/developertown/dioxide-rails.
+Protocol documentation may be found here: https://github.com/developertown/dioxide-rails/wiki/Dioxide-RPC-Protocol.
 
 == Installation
 
