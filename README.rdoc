@@ -26,8 +26,7 @@ Update dioxide_config.js with the API endpoint that you will be connecting to.  
 
 Other possible configuration options:
 
-[debug] boolean value that indicates whether or not additional debug info concerning requests and responses should be
-printed to the Titanium console.
+[debug] boolean value that indicates whether or not additional debug info concerning requests and responses should be printed to the Titanium console.
 
 Note: It's perfectly acceptable to reference an application-specific variable or function call to evaluate parameters such as the serviceURL,
 in case your application has a more extensive configuration environment already in place.
